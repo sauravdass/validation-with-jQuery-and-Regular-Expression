@@ -1,0 +1,79 @@
+/*
+
+1.common css
+
+
+
+*/
+
+/*table of css ends*/
+
+
+/*common css starts*/
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --oswald: 'Oswald', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+i {
+    padding: 0;
+    margin: 0;
+}
+
+/*common css ends*/
+
+/*form css starts*/
+
+#form .form-part .form-group input,
+#form .form-part .form-group textarea {
+    border-radius: 0;
+    background: #fff;
+    font-size: 14px;
+    padding: 24px 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-color: transparent;
+    color: #000;
+}
+
+#form .form-part .form-group:last-of-type {
+    margin-bottom: 20px;
+}
+
+#form .form-part .form-group small {
+    color: red;
+    font-style: italic;
+}
+
+#form .form-part #submitBtn {
+    background: linear-gradient(to right, #8A31E0, #B360ED);
+    font-size: 15px;
+    padding: 14px 30px;
+    border-radius: 100px;
+}
+
+/*form css ends*/
